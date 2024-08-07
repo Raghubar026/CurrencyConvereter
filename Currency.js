@@ -36,6 +36,8 @@ btn.addEventListener("click", async (evt) => {
     evt.preventDefault();
     let amount = document.querySelector(".amount input");
     let amtVal = amount.value;
+    amtVal = amtVal.replace(/[^0-9]/g, '');
+    amount.value = amtVal;
     if(amtVal === "" || amtVal < 1) {
         amtVal = 1;
         amount.value = "1";
