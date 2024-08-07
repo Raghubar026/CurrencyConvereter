@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url("Background.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.container{
+    text-align: center;
+    padding: 2rem;
+    border-radius: solid, rgb(73, 73, 220), 5rem;
+    min-height: 45vh;
+    width: 40vh;
+    color: black;
+    text-decoration: solid;
+}
+
+p{
+    font-size: 1.15rem;
+    text-decoration: solid;
+    font-weight: bold;
+    color: black;
+}
+
+.enter{
+    color: black;
+}
+
+form{
+    margin: 3rem 0 1rem 0;
+}
+
+form select, button, input{
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 0.75rem;
+}
+
+form input{
+    border: 1px solid rgb(84, 84, 243);
+    backdrop-filter: blur(5px);
+    background-color: rgba(255, 255, 255, 0.5);
+    -webkit-backdrop-filter: blur(5px);
+    font-size: 1rem;
+    height: 2rem;
+    padding-left: 0.5rem;
+}
+
+.dropdown{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+    
+}
+
+.droupdown i{
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    /* background-color: #C0C0C0; */
+    backdrop-filter: blur(8px);
+}
+
+.select-container img{
+   max-width: 2rem;
+   
+}
+
+.select-container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 6rem;
+    border-radius: 0.5rem;
+    /* background-color: #f9f9f9; */
+    backdrop-filter: blur(8px);
+    background-color: rgba(255, 255, 255, 0.4);
+    -webkit-backdrop-filter: blur(8px);
+}
+
+.select-container select{
+    font-size: 1rem;
+    width: auto;
+    backdrop-filter: blur(1px);
+    background-color: rgba(255, 255, 255, 0.0);
+    -webkit-backdrop-filter: blur(1px);
+}
+
+.msg{
+    margin: 2rem 0 2rem 0;
+    padding-left: 2rem;
+    font-weight: bold;
+}
+
+button{
+    height: 2rem;
+    backdrop-filter: blur(5px);
+    background-color: rgba(255, 255, 255, 0.5);
+    -webkit-backdrop-filter: blur(5px);
+    color: #0000FF;
+    font-size: 1.15rem;
+    cursor: pointer;
+}
